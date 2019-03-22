@@ -1,10 +1,10 @@
 ### 订阅者模式
 - on 订阅
-- emit 发生消息
+- emit 发送消息
 - off 取消订阅
 - once  一次订阅
   
-##### 代码如下
+#### 代码如下：
 ```
 const EventHandlers = {
   handlers: {},
@@ -38,7 +38,7 @@ const EventHandlers = {
   },
 };
 ```
-
+#### 运行结果
 ```
 const message = e => {
   console.log (e);
