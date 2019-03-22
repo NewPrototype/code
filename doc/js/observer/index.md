@@ -53,10 +53,10 @@ EventHandlers.off ('message', message);
 // message 已经删除了，所以不会再接收消息
 EventHandlers.emit ('message', '发送消息3');
 // 一次订阅
- EventHandlers.once ('b', e => {
-   console.log (e, ':接收消息1---');
- });
- EventHandlers.emit('b','一次消息传输')
- ```
+EventHandlers.once ('b', e => {
+  console.log (e, ':接收消息1---');
+});
+EventHandlers.emit('b','一次消息传输')
+```
 
 
