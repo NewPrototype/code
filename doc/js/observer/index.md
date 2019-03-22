@@ -1,9 +1,10 @@
-#### 订阅者模式
-- on 订阅
+### 订阅者模式
+- on 订阅
 - emit 发生消息
 - off 取消订阅
 - once  一次订阅
   
+##### 代码如下
 ```
 const EventHandlers = {
   handlers: {},
@@ -48,8 +49,8 @@ EventHandlers.on ('message', message);
 EventHandlers.emit ('message', '发送消息2');  
 
 // 删除 
-EventHandlers.remove ('message', message);
-
+EventHandlers.off ('message', message);
+// message 已经删除了，所以不会再接收消息
 EventHandlers.emit ('message', '发送消息3');
 // 一次订阅
  EventHandlers.once ('b', e => {
