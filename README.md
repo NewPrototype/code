@@ -2,6 +2,8 @@
 
 #### javascript 
 -  [观察模式](/doc/js/observer/index.md) 
+-  [节流](/doc/js/throttle/index.md)
+-  [防抖](/doc/js/debounce/index.md)
 
 
 #### TODO
@@ -9,11 +11,12 @@
   - loader
   - plugins
 - javascript
-  - promise
   - <del>[观察模式](/doc/js/observer/index.md)</del>
   - 继承
-  - 防抖
-  - 截流
+  - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
+  - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
+  - promise
+  - call、apply、bind
 - react
   - router
   - redux
@@ -22,7 +25,9 @@
   - Fiber
 - vue 
   - 双向绑定
-- 排序
+- node
+  - require
+- 排序
   - 冒泡排序
   - 选择排序
   - 插入排序
@@ -37,6 +42,7 @@
   - 二叉树
   - 平衡二叉树
   - 红黑树
+  - 前序遍历
   - 中序遍历
   - 后序遍历
 - 数据结构
