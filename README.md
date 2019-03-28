@@ -5,6 +5,7 @@
 -  [节流](/doc/js/throttle/index.md)
 -  [防抖](/doc/js/debounce/index.md)
 -  [proxy、Reflect](/doc/js/proxy、Reflect/index.md)
+-  [call、apply、bind](/doc/js/call、bind、apply/index.md)
 
 
 #### TODO
@@ -18,7 +19,7 @@
   - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
   - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
   - promise
-  - call、apply、bind
+  - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
 - react
   - router
   - redux
