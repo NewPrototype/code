@@ -4,8 +4,7 @@
 -  [观察模式](/doc/js/observer/index.md) 
 -  [节流](/doc/js/throttle/index.md)
 -  [防抖](/doc/js/debounce/index.md)
--  [proxy和Reflect](/doc/js/proxy、Reflect/index.md)
--  
+-  [proxy、Reflect](/doc/js/proxy、Reflect/index.md)
 
 
 #### TODO
@@ -15,7 +14,7 @@
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
   - 继承
-  - <del>[proxy和Reflect](/doc/js/proxy、Reflect/index.md)</del>
+  - <del>[proxy、Reflect](/doc/js/proxy、Reflect/index.md)</del>
   - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
   - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
   - promise
