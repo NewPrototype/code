@@ -6,20 +6,23 @@
 -  [防抖](/doc/js/debounce/index.md)
 -  [proxy、Reflect](/doc/js/proxy、Reflect/index.md)
 -  [call、apply、bind](/doc/js/call、bind、apply/index.md)
+-  [继承](/doc/js/extends/index.md)
 
 
 #### TODO
+
+- javascript
+  - <del>[观察模式](/doc/js/observer/index.md)</del>
+  - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
+  - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
+  - <del>[proxy、Reflect](/doc/js/proxy、Reflect/index.md)</del>
+  - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
+  - <del>[继承](/doc/js/extends/index.md)</del>
+  - promise
+  - typescript
 - webpack
   - loader
   - plugins
-- javascript
-  - <del>[观察模式](/doc/js/observer/index.md)</del>
-  - 继承
-  - <del>[proxy、Reflect](/doc/js/proxy、Reflect/index.md)</del>
-  - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
-  - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
-  - promise
-  - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
 - react
   - router
   - redux
@@ -41,13 +44,6 @@
   - 桶排序
   - 技术排序
   - 归并排序
-- 树
-  - 二叉树
-  - 平衡二叉树
-  - 红黑树
-  - 前序遍历
-  - 中序遍历
-  - 后序遍历
 - 数据结构
   - 栈
   - 堆
@@ -55,4 +51,12 @@
   - 字典
   - 集合
   - 散列表
+- 树
+  - 二叉树
+  - 平衡二叉树
+  - 红黑树
+  - 前序遍历
+  - 中序遍历
+  - 后序遍历
+
 
