@@ -32,11 +32,11 @@ function Cat(name,color){
     this.color=color;
 }
  function extents(child,parent){
-     const F=function(){};
+    const F=function(){};
     F.prototype=parent.prototype;
-     child.prototype=new F();
-     child.prototype.constructor=child;
-     child.uber=parent.prototype;
+    child.prototype=new F();
+    child.prototype.constructor=child;
+    child.uber=parent.prototype;
  }
  extents(Cat,Animal);
 
@@ -63,10 +63,13 @@ class Banana extends Fruits {
         super(props);
     }
     get name() {
-        return '1';
+        return this.name;
+    }
+    set name(value) {
+        return this.name=value;
     }
 }
 
 const banana = new Banana({ name: '香蕉' });
-console.log(banana.name); //1
+console.log(banana.name); //香蕉
 ```
