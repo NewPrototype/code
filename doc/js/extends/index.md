@@ -112,3 +112,8 @@ window.price; //undefined;
 - 执行构造函数内部初始代码
 
 <!-- https://javascript.ruanyifeng.com/oop/basic.html#toc2 -->
+
+##### 检查不是new 构造函数的方法
+- !(this instanceof functionName)
+- new.target ==functionName
+
