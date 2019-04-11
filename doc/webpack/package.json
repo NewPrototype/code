@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "start": "webpack-dev-server "
+    "start": "webpack-dev-server ",
+    "build": "webpack   --mode production"
   },
   "dependencies": {
+    "tapable": "^1.1.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"

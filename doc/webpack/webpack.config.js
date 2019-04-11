@@ -1,3 +1,4 @@
+const MyPlugin=require('./plugin')
 module.exports = {
     entry: {
       index: './index.js'
@@ -12,5 +13,8 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
+    plugins: [
+        new MyPlugin({param: 'MyPlugin'})
+      ],
   }

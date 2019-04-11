@@ -7,7 +7,7 @@
 
 #### 手写loader
 
-- 数据  文件名``` test.txt``` 内容```hello world  ``` 文件名```test2.txt``` 内容 ```hello javascript ```
+- 文件名``` test.txt``` 内容```hello world  ``` 文件名```test2.txt``` 内容 ```hello javascript ```
 
 - replace.js 文字替换
 ```
@@ -31,7 +31,7 @@ module.exports=(str)=>{
 ```
 module.exports = {
     entry: {
-      index: './index.js'
+      index: './index.js'  //在index.js 中引入text.txt 和 text2.txt 文件，不然webpack 不会执行
     },
     module: {
       rules: [
