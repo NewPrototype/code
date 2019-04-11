@@ -46,6 +46,7 @@ class MyPlugin {
             console.log('compiler----------compilation:',compilation)
             let files = fs.readdirSync('del');
             fs.rmdirSync('del')
+            // compilation.errors.push('error'); 错误信息集中抛给webpack
             return callback();
         })
     }

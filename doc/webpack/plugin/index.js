@@ -15,7 +15,10 @@ class MyPlugin {
             let files = fs.readdirSync('del');
             console.log(files,'------files')
             fs.rmdirSync('del')
-        })
+           
+        }) 
+
+       
         // compiler.plugin('emit', (compilation,callback) => {
         //     console.log('compiler----------emit:',compilation.assets)
         //     for(let filePathName in  compilation.assets){

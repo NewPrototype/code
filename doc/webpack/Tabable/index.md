@@ -60,7 +60,7 @@ car.hook.push.call('hello1',"2")
 
 --------------------分割线
 
-car.hook.pop.tapAsync('Async',(e1,e2,callback)=>{
+car.hook.pop.tapAsync('Async',(e1,e2,callback)=>{  //Async 无实际作用
     setTimeout(()=>{
         console.log(e1,e2) //1,2
         callback()
@@ -72,7 +72,7 @@ car.hook.pop.callAsync('hello','async',(err)=>{
 
 --------------------分割线
 
-car.hook.pop.tapPromise('Async promise',(e1,e2)=>{
+car.hook.pop.tapPromise('Async promise',(e1,e2)=>{  //Async promise 无实际作用
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             // console.log(e1,e2) //1,2
