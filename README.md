@@ -13,7 +13,7 @@
 - [plugin](/doc/webpack/plugin/index.md) 
 - [Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) 
 
-#### TODO
+#### [typescript](/doc/typescript/index.md) 
 
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
@@ -23,11 +23,12 @@
   - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
   - <del>[继承](/doc/js/extends/index.md)</del>
   - promise
-  - typescript
 - webpack
   - <del>[loader](/doc/webpack/loader/index.md) </del>
   - <del>[plugin](/doc/webpack/plugin/index.md) </del>
   - <del>[Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) </del>
+- [typescript](/doc/typescript/index.md) 
+- 单元测试
 - react
   - router
   - redux
