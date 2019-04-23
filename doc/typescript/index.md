@@ -181,7 +181,6 @@ test.ts
 - ```interface I{x:number[]}``` 声明对象
 - ```declare``` 全局变量
 - ```class C implements Disposable, Activatable {}``` ,类继承接口
-- 
 #### 修饰符
 - ```static``` 静态
 - ```private``` 私有
