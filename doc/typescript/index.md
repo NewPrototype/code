@@ -1,4 +1,4 @@
-###typescript 
+### typescript 
 
 #### 基础类型
 
@@ -42,7 +42,7 @@ const not:any=4;
 ```
 let unusable:void=undefined;
 function warn():void{
-
+    //没有return 
 }
 
 ```
@@ -54,7 +54,7 @@ let n:null=null;
 ##### never 永不存在的值的
 ```
 function error (message:string):never{
-
+   throw new Error(message);   //类型void
 }
 ```
 
@@ -64,7 +64,7 @@ let o:object={};
 let o:{}={};
 ```
 
-####接口
+#### 接口
 ```
 interface LabelledValue{
     label:string,
@@ -78,7 +78,7 @@ function printLabel(labelledObj:LabelledValue):boolean{
 }
 ```
 
-####可索引的类型
+#### 可索引的类型
 ```
 interface StringArray {
   readonly [index: number]: string;
@@ -109,11 +109,11 @@ interface Square1 extends Shape,shape1 {  //多继承
 #### 泛值  传递什么值进入，返回什么值出去
 ```
 function getName<T>(arg:T):T{
-
+    return arg
 }
 ```
 
-####枚举
+#### 枚举
 ```
 enum Response {
     No = 0,   //默认是下标
@@ -143,8 +143,6 @@ namespace Validation {
     }
 }
 <!-- Validation.StringValidator -->
-
-
 ```
 #### 多文件命名空间 
 Validation.ts
@@ -159,7 +157,7 @@ namespace Validation {
 
 LettersOnlyValidator.ts
 ```
-/// <reference path="Validation.ts" />
+/// <reference path="Validation.ts" />   
 namespace Validation {
     const lettersRegexp = /^[A-Za-z]+$/;
     export class LettersOnlyValidator implements StringValidator {
@@ -178,13 +176,17 @@ test.ts
 
 
 #### 类型
-- namespace声明可以用来添加新类型
-- type sn=number |string; 
-- interface I{x:number[]}
-- declare 全局变量
-- class C implements Disposable, Activatable {}
-#### JSx
-```
- jsx元素:JSX.Element
+- ```namespace```声明可以用来添加新类型
+- ```type sn=number |string```  声明基本类型; 
+- ```interface I{x:number[]}``` 声明对象
+- ```declare``` 全局变量
+- ```class C implements Disposable, Activatable {}``` ,类继承接口
+- 
+#### 修饰符
+- ```static``` 静态
+- ```private``` 私有
+- ```public``` 公共
+- ```protected``` 修饰符与 private修饰符的行为很相似，但有一点不同， ```protected```成员在子类中仍然可以访问
 
-```
+#### JSX
+- ```JSX.Element```
