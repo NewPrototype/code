@@ -27,7 +27,7 @@
   - <del>[loader](/doc/webpack/loader/index.md) </del>
   - <del>[plugin](/doc/webpack/plugin/index.md) </del>
   - <del>[Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) </del>
-- [typescript](/doc/typescript/index.md) 
+- <del>[typescript](/doc/typescript/index.md) </del>
 - 单元测试
 - react
   - router
