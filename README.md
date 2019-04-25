@@ -14,6 +14,7 @@
 - [Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) 
 
 #### [typescript](/doc/typescript/index.md) 
+#### [git入门教程](/doc/git/index.md) 
 
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
@@ -28,6 +29,7 @@
   - <del>[plugin](/doc/webpack/plugin/index.md) </del>
   - <del>[Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) </del>
 - <del>[typescript](/doc/typescript/index.md) </del>
+- <del>[git入门教程](/doc/git/index.md) </del>
 - 单元测试
 - react
   - router
