@@ -24,7 +24,7 @@
   - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
   - <del>[继承](/doc/js/extends/index.md)</del>
   - promise
-- webpack
+- <del>webpack</del>
   - <del>[loader](/doc/webpack/loader/index.md) </del>
   - <del>[plugin](/doc/webpack/plugin/index.md) </del>
   - <del>[Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) </del>
