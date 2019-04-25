@@ -1,13 +1,12 @@
 ### git 
 
-#### 安装git 
-##### mac
-- ```$ brew install wget```  [brew](https://brew.sh/)
+#### mac安装git
+- ```$ brew install wget```  [brew官网](https://brew.sh/)
 - ```AppStore``` 下载```Xcode```
-##### window 
+#### window 安装git
 - 从Git官网直接下载[安装程序](https://git-scm.com/downloads),然后按默认选项安装即可。
 
-##### 修改git 账号
+#### 修改git 账号
 --global 表示全局git仓库，表示修改全局git仓库
 ```
 $ git config --global user.name "Your Name"
@@ -17,7 +16,6 @@ $ git config --global user.email "email@example.com"
 ```
 $ git config user.name "Your name"
 $ git config user.email "Your email"
-
 ```
 
 #### 创建git仓库
@@ -28,8 +26,8 @@ $ git config user.email "Your email"
 #### 版本回退
 - ```$ git reset --hard HEAD^ ``` 回到上个版本
 - ```$ git reset --hard HEAD^^ ``` 回到上上个版本
-- ```$ git reset --hard HEAD~100 ``` 回到上100个版本
-- ```$ git reset --hard 1094a ``` 回到commit id 有1094a 的节点
+- ```$ git reset --hard HEAD~100 ``` 回到上```100```个版本
+- ```$ git reset --hard 1094a ``` 回到```commit id``` 有```1094a``` 的节点
 
 #### 撤销
 - 第一种情况是还没有执行```$ git add .```,那么 ```$ git checkout --  fileName ```  就可以撤销这个文件修改
@@ -56,11 +54,11 @@ $ git config user.email "Your email"
 
 #### 创建分支
 - ```$ git branch dev```创建dev分支
-- ```$ git branch ```查看分支，带*表示当前所在分支
+- ```$ git branch ```查看分支，带```*```表示当前所在分支
 
 #### 切换分支
-- ```$ git checkout dev ```切换到dev分支
-- ```$ git checkout -b dev```,创建dev分支并切换到dev分支
+- ```$ git checkout dev ```切换到```dev```分支
+- ```$ git checkout -b dev```,创建```dev```分支并切换到```dev```分支
 
 #### 合并分支
 - ```$ git merge dev``` 把```dev```分支合并到当前分支
@@ -76,7 +74,7 @@ $ git config user.email "Your email"
 - ```$ git stash apply```恢复,```$ git stash drop```删除记录信息
 
 #### 标签 
-tag就是一个让人容易记住的有意义的名字，它跟某个commit绑在一起。
+tag就是一个让人容易记住的有意义的名字，它跟某个```commit```绑在一起。
 - ```$ git tab v1.0```最新的```commit ```打上标签
 - ```$ git tab v1.0  commitId```,为指定的```commit ```打上标签
 - ``` $ git show v0.9```,即可快速查看这条记录
