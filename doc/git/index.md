@@ -1,6 +1,6 @@
 ### git 
 
-####安装git 
+#### 安装git 
 ##### mac
 - ```$ brew install wget```  [brew](https://brew.sh/)
 - ```AppStore``` 下载```Xcode```
@@ -10,11 +10,13 @@
 ##### 修改git 账号
 --global 表示全局git仓库，表示修改全局git仓库
 ```
-$ git config user.name "Your name"
-$ git config user.email "Your email"
-||
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
+```
+单个仓库修改
+```
+$ git config user.name "Your name"
+$ git config user.email "Your email"
 
 ```
 
@@ -88,4 +90,4 @@ tag就是一个让人容易记住的有意义的名字，它跟某个commit绑�
 - 暂存指的是```$ git add .```,把本地文件放入暂存
 
 
-参考链[廖雪峰老师](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+参考文档[廖雪峰老师](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
