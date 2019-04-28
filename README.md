@@ -15,6 +15,8 @@
 
 #### [typescript](/doc/typescript/index.md) 
 #### [git入门教程](/doc/git/index.md) 
+#### 排序 
+- [快速排序](/doc/sort/quickSort/index.md) 
 
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
@@ -46,7 +48,7 @@
   - 选择排序
   - 插入排序
   - 希尔排序
-  - 快速排序
+  - <del>[快速排序](/doc/sort/quickSort/index.md) </del>
   - 堆排序
   - 计数排序
   - 桶排序
