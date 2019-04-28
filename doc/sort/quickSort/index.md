@@ -1,5 +1,5 @@
 ### 快速排序
-快速排序的要点是找好一个基点，然后遍历数组与这个基点对比，比这个基点小的放入到left 集合中，其他的放入到left 集合中，然后递归
+快速排序是找好一个基点，然后遍历数组与这个基点对比，比这个基点小的放入到```left``` 集合中，其他的放入到```right``` 集合中，然后递归
 
 ```
 const quickSort=(arr)=>{
@@ -18,8 +18,6 @@ const quickSort=(arr)=>{
 };
 
 const testArray=[85,24,63,15,9];
-
-console.log(quickSort(testArray))
-// [ 9, 15, 24, 63, 85 ]
+console.log(quickSort(testArray)) // [ 9, 15, 24, 63, 85 ]
 
 ```
