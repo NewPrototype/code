@@ -16,6 +16,7 @@
 #### [typescript](/doc/typescript/index.md) 
 #### [git入门教程](/doc/git/index.md) 
 #### 排序 
+- [冒泡排序](/doc/sort/bubbleSort/index.md)
 - [快速排序](/doc/sort/quickSort/index.md) 
 
 - javascript
@@ -44,7 +45,7 @@
 - node
   - require
 - 排序
-  - 冒泡排序
+  - <del>[冒泡排序](/doc/sort/bubbleSort/index.md) </del>
   - 选择排序
   - 插入排序
   - 希尔排序
