@@ -17,7 +17,9 @@
 #### [git入门教程](/doc/git/index.md) 
 #### 排序 
 - [冒泡排序](/doc/sort/bubbleSort/index.md)
+- [选择排序](/doc/sort/selectSort/index.md)
 - [快速排序](/doc/sort/quickSort/index.md) 
+
 
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
@@ -46,7 +48,7 @@
   - require
 - 排序
   - <del>[冒泡排序](/doc/sort/bubbleSort/index.md) </del>
-  - 选择排序
+  - <del>[选择排序](/doc/sort/selectSort/index.md)</del>
   - 插入排序
   - 希尔排序
   - <del>[快速排序](/doc/sort/quickSort/index.md) </del>
