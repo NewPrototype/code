@@ -18,6 +18,7 @@
 #### 排序 
 - [冒泡排序](/doc/sort/bubbleSort/index.md)
 - [选择排序](/doc/sort/selectSort/index.md)
+- [插入排序](/doc/sort/insertionSort/index.md)
 - [快速排序](/doc/sort/quickSort/index.md) 
 
 
@@ -49,7 +50,7 @@
 - 排序
   - <del>[冒泡排序](/doc/sort/bubbleSort/index.md) </del>
   - <del>[选择排序](/doc/sort/selectSort/index.md)</del>
-  - 插入排序
+  - <del>[插入排序](/doc/sort/insertionSort/index.md)</del>
   - 希尔排序
   - <del>[快速排序](/doc/sort/quickSort/index.md) </del>
   - 堆排序
