@@ -25,21 +25,8 @@
 
 
 
-
 - javascript
-  - <del>[观察模式](/doc/js/observer/index.md)</del>
-  - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
-  - <del>[节流](/doc/js/throttle/index.md)(throttle):指定时间间隔内只会执行一次任务</del>
-  - <del>[proxy、Reflect](/doc/js/proxy、Reflect/index.md)</del>
-  - <del>[call、apply、bind](/doc/js/call、bind、apply/index.md)</del>
-  - <del>[继承](/doc/js/extends/index.md)</del>
   - promise
-- <del>webpack</del>
-  - <del>[loader](/doc/webpack/loader/index.md) </del>
-  - <del>[plugin](/doc/webpack/plugin/index.md) </del>
-  - <del>[Tabable (webpack 钩子函数)](/doc/webpack/Tabable/index.md) </del>
-- <del>[typescript](/doc/typescript/index.md) </del>
-- <del>[git入门教程](/doc/git/index.md) </del>
 - 单元测试
 - react
   - router
@@ -52,16 +39,10 @@
 - node
   - require
 - 排序
-  - <del>[冒泡排序](/doc/sort/bubbleSort/index.md) </del>
-  - <del>[选择排序](/doc/sort/selectSort/index.md)</del>
-  - <del>[插入排序](/doc/sort/insertionSort/index.md)</del>
-  - <del>[希尔排序](/doc/sort/shellSort/index.md) </del>
-  - <del>[快速排序](/doc/sort/quickSort/index.md) </del>
   - 堆排序
   - 计数排序
   - 桶排序
   - 技术排序
-  - <del>[归并排序](/doc/sort/mergeSort/index.md) </del>
 - 数据结构
   - 栈
   - 堆
