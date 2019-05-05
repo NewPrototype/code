@@ -24,6 +24,8 @@
 - [归并排序](/doc/sort/mergeSort/index.md) 
 
 
+
+
 - javascript
   - <del>[观察模式](/doc/js/observer/index.md)</del>
   - <del>[防抖](/doc/js/debounce/index.md)(debounce):任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行</del>
