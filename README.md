@@ -20,6 +20,8 @@
 - [选择排序](/doc/sort/selectSort/index.md)
 - [插入排序](/doc/sort/insertionSort/index.md)
 - [快速排序](/doc/sort/quickSort/index.md) 
+- [希尔排序](/doc/sort/shellSort/index.md) 
+- [归并排序](/doc/sort/mergeSort/index.md) 
 
 
 - javascript
@@ -51,13 +53,13 @@
   - <del>[冒泡排序](/doc/sort/bubbleSort/index.md) </del>
   - <del>[选择排序](/doc/sort/selectSort/index.md)</del>
   - <del>[插入排序](/doc/sort/insertionSort/index.md)</del>
-  - 希尔排序
+  - <del>[希尔排序](/doc/sort/shellSort/index.md) </del>
   - <del>[快速排序](/doc/sort/quickSort/index.md) </del>
   - 堆排序
   - 计数排序
   - 桶排序
   - 技术排序
-  - 归并排序
+  - <del>[归并排序](/doc/sort/mergeSort/index.md) </del>
 - 数据结构
   - 栈
   - 堆
