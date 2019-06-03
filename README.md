@@ -7,7 +7,10 @@
 -  [proxy、Reflect](/doc/js/proxy、Reflect/index.md)
 -  [call、apply、bind](/doc/js/call、bind、apply/index.md)
 -  [继承](/doc/js/extends/index.md)
-
+-  [promise](/doc/js/promise/index.md)
+#### react
+-  [react-router](/doc/react/react-router/index.md) 
+-  
 #### webpack
 - [loader](/doc/webpack/loader/index.md) 
 - [plugin](/doc/webpack/plugin/index.md) 
@@ -24,12 +27,8 @@
 - [归并排序](/doc/sort/mergeSort/index.md) 
 
 
-
-- javascript
-  - promise
 - 单元测试
 - react
-  - router
   - redux
   - render
   - diff

@@ -1,24 +1,44 @@
-// console.log('1');
-// setTimeout(()=>{
-//     console.log('-2')
-// })
-
-
-// new Promise(()=>{
-
-// })
-
-
-
-setTimeout(function(){console.log(1)},0);
-new Promise(function(resolve){
-    console.log(2)
-    for( var i=0 ; i<10000 ; i++ ){
-        i==9999 && resolve()
+function TestPromise(fn){
+    let callbacks=[],value=null,state='pending',setTime;
+    resolve=function(newValue){
+        value=newValue;
+        state='resolved';
+        execute()
     }
-    console.log(3)
-}).then(function(){
-    console.log(4)
-});
-console.log(5);
+    reject=function(newValue){
+        value=newValue;
+        state='rejected';
+        execute();
+    }
+    execute=function(){
+        setTime&&clearTimeout(setTime);
+        setTime=setTimeout(()=>{
+            while (callbacks.length>0) {
+                callbacks.shift()(value)
+            }
+        },0)
+    }
+    this.then=function(resolved,rejected){
+        if(state=='pending'){
+            callbacks=[...callbacks,...[resolved,rejected]].filter(v=>!!v);
+        }else if(state=='resolved'){
+            resolved(value)
+        }else if(state=='rejected'){
+            rejected(value)
+        }
+        return this
+    }
+    fn(resolve,reject)
+}
 
+new TestPromise((resolve)=>{
+    setTimeout(()=>{
+        resolve('1')
+    },100)
+}).then(v=>{
+    console.log(v,'--------1')
+},()=>{
+    console.log('--------2')
+}).then((e)=>{
+    console.log(e)
+},)
