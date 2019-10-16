@@ -29,9 +29,9 @@ export default Routers;
 ```
 入口 index.js
 ```
-import {HashRouter} from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {HashRouter} from 'react-router-dom';
 import Routers from './router';
 
 ReactDOM.render (
@@ -312,7 +312,11 @@ var withRouter = function withRouter(Component) {
   return hoistStatics(C, Component);
 };
 ```
+
+总结:
+
 到这里真个流程基本结束了，这只是```react-router```的一种使用方式的解析,本文的目的是理解```react-router```的运行机制,如果有什么错误还望指出,谢谢🙏
+
 
 
 

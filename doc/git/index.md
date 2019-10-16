@@ -30,8 +30,10 @@ $ git config user.email "Your email"
 - ```$ git reset --hard 1094a ``` 回到```commit id``` 有```1094a``` 的节点
 
 #### 撤销
+
 - 第一种情况是还没有执行```$ git add .```,那么 ```$ git checkout --  fileName ```  就可以撤销这个文件修改
-- 第二种情况是执行了```$ git add .```,  那么第一步执行```git reset HEAD fineName ```，把文件回退到```$ git add ```之前,第二步执行```$ git checkout -- fileName```取消文件修改,
+- 第二种情况是执行了```$ git add .```,  那么第一步执行```git reset HEAD fineName ```，把文件回退到```$ git add ```之前,第二步执行```$ git checkout -- fileName```取消文件修改, 撤销所有可以使用```git reset HEAD . ```
+- 第三种是执行了```git commit ```,输入```git reset 上一次commitId```,```git log ```查看提交记录,
 
 #### 删除文件恢复
 - ```$ git checkout -- fileName  ```,删除文件恢复 
