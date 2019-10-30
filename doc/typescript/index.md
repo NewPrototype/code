@@ -20,6 +20,14 @@ const list:number[]=[1,2,3];
 const list1:Array<number>=[1,2,3];
 
 ```
+
+##### 对象
+```
+const x:{[kee:string]:number}={key:1};
+
+
+```
+
 ##### 元组
 ```
 const x:[string,number]=['hello',10];

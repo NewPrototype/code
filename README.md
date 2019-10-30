@@ -1,5 +1,7 @@
 记录前端技术点的文档，不定期更新！
 
+#### [面试题](/interview-question/index.md) 
+
 #### javascript 
 -  [观察模式](/doc/js/observer/index.md) 
 -  [节流](/doc/js/throttle/index.md)
@@ -9,8 +11,7 @@
 -  [继承](/doc/js/extends/index.md)
 -  [promise](/doc/js/promise/index.md)
 #### react
--  [react-router](/doc/react/react-router/index.md) 
--  
+-  [react-router](/doc/react/react-router/index.md)   
 #### webpack
 - [loader](/doc/webpack/loader/index.md) 
 - [plugin](/doc/webpack/plugin/index.md) 
@@ -26,7 +27,7 @@
 - [希尔排序](/doc/sort/shellSort/index.md) 
 - [归并排序](/doc/sort/mergeSort/index.md) 
 
-
+<!-- 
 - 单元测试
 - react
   - redux
@@ -55,6 +56,6 @@
   - 红黑树
   - 前序遍历
   - 中序遍历
-  - 后序遍历
+  - 后序遍历 -->
 
 

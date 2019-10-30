@@ -38,6 +38,9 @@ $ git config user.email "Your email"
 #### 删除文件恢复
 - ```$ git checkout -- fileName  ```,删除文件恢复 
 
+#### Unable to create 'project_path/.git/index.lock': File exists. 提交记录被占用
+- ```rm -f ./.git/index.lock```
+
 #### 查看 
 - ```$ git log ``` 查看提交记录
 - ```$ git reflog ``` 查看提交记录
